@@ -31,6 +31,7 @@
 	--primary-inverse-color: #fff;	/*上のprimary-inverse-colorの対として使う色*/
 
 	--global-space: 3vw;				/*サイト内の余白の一括管理用。画面幅100%＝100vwです。*/
+  --header-space: 2vw;
 }
 
 
@@ -89,7 +90,7 @@ iframe {width: 100%;}
 
 /*sectionが続く場合*/
 section + section {
-	margin-top: 1vw;	/*sectionの上に空けるスペース*/*/
+	margin-top: 2vw;	/*sectionの上に空けるスペース*/*/
 }
 
 
@@ -114,8 +115,8 @@ a:hover {
 ---------------------------------------------------------------------------*/
 /*headerブロック*/
 header {
-	padding-top: var(--global-space);		/*上側の余白。css冒頭で指定しているglobal-spaceを読み込みます。*/
-	padding-bottom: var(--global-space);	/*下側の余白。css冒頭で指定しているglobal-spaceを読み込みます。*/
+	padding-top: var(--header-space);		/*上側の余白。css冒頭で指定しているheader-spaceを読み込みます。*/
+	padding-bottom: var(--header-space);	/*下側の余白。css冒頭で指定しているheader-spaceを読み込みます。*/
 	text-align: center;		/*中のテキストをセンタリング*/
 }
 
@@ -464,8 +465,8 @@ footer {
 }
 .flex .right {
   /*top, right, bottom, left*/
-	/*margin-left: var(--global-space);*/
-  margin: 0 0 0 20px;
+	margin-left: var(--global-space);
+  /*margin: 0 0 0 20px;*/
   padding: 0;
 }
 .flex .title {
