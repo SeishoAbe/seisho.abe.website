@@ -144,8 +144,8 @@ header address {
 /*ロゴ*/
 #logo {
 	margin: 0;padding: 0;
-	/*font-size: 1.5rem;	/*文字サイズを150%に*/ */
-	font-size: 2.0rem;	/*文字サイズを150%に*/
+	font-size: 1.5rem;	/*文字サイズを150%に*/ 
+	/*font-size: 2.0rem;*/
 }
 
 /*ロゴを画像にする場合*/
@@ -455,7 +455,7 @@ footer {
   display: flex; /*横並び*/
 }
 .flex .image {
-  width: 640px; /*画像サイズ指定*/
+  width: 400px; /*画像サイズ指定*/
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -470,10 +470,9 @@ footer {
   padding: 0;
   font-weight: bold;
   /*font-size: 18px;*/
-  font-size: 2.0rem;*/
+  font-size: 1.5rem;*/
 }
 .flex .text {
-  margin: 0.5rem 0 0;
-  padding: 0;
+	margin: 0;padding: 0;
 }
 
