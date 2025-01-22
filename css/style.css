@@ -89,7 +89,7 @@ iframe {width: 100%;}
 
 /*sectionが続く場合*/
 section + section {
-	margin-top: 8vw;	/*sectionの上に空けるスペース*/
+	margin-top: 4vw;	/*sectionの上に空けるスペース*/
 }
 
 
@@ -462,7 +462,7 @@ footer {
   position: relative;
 }
 .flex .right {
-  margin: 0 0 0 20px;/*top, right, bottom, left*/
+  margin: 0 0 0 50px;/*top, right, bottom, left*/
   padding: 0;
 }
 .flex .title {
@@ -495,5 +495,16 @@ footer {
   right: 0;
   bottom: 0;
   margin: auto;
+}
+
+/* hyperlink */ 
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
 }
 
