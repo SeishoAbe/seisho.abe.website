@@ -31,7 +31,7 @@
 	--primary-inverse-color: #fff;	/*上のprimary-inverse-colorの対として使う色*/
 
 	--global-space: 3vw;				/*サイト内の余白の一括管理用。画面幅100%＝100vwです。*/
-  --header-space: 2vw;
+  --header-space: 1vw;
 }
 
 
@@ -458,7 +458,7 @@ footer {
 .flex .image {
   width: 250px; /*画像サイズ指定*/
   /*margin: 0;*/
-  margin-bottom: 15px;
+  margin-bottom: 2vw;
   padding: 0;
   overflow: hidden;
   position: relative;
