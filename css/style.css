@@ -191,7 +191,7 @@ main h2 {
 /*メニューを囲むブロック*/
 #menubar {
 	order: -1;		/*左側に表示させる。右側がいいならこの１行を削除。*/
-	width: 300px;	/*幅。お好みで変更して下さい。*/
+	width: 250px;	/*幅。お好みで変更して下さい。*/
 }
 
 /*メニュー１個あたりの設定*/
@@ -455,8 +455,8 @@ footer {
   display: flex; /*横並び*/
 }
 .flex .image {
-  width: 180px; /*画像サイズ指定*/
-  margin: 0;
+  width: 150px; /*画像サイズ指定*/
+  margin: 0 0 20px 0;
   padding: 0;
   overflow: hidden;
   position: relative;
