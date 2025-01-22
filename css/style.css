@@ -479,22 +479,3 @@ footer {
   margin: 0;
   padding: 0;
 }
-
-
-/* hyperlink */ 
-.flex .a:link {
- color: #0000EE;
- text-decoration: underline;
-}
-
-.flex .a:visited {
- color: #551A8B;
- text-decoration: underline;
-}
-
-.flex .a:hover {}
-
-.flex .a:active {
- color: #FF0000;
- text-decoration: underline;
-}
