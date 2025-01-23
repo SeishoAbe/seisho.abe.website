@@ -481,7 +481,6 @@ footer {
 }
 
 /**/
-
 .performance-list {
     list-style-type: none;
     padding: 0;
@@ -495,9 +494,13 @@ footer {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.performance-item h3 {
-    margin: 0;
-    /*font-size: 1.2em;*/
+.performance-item h3, .performance-item .details {
+    font-size: 1em; /* 文字サイズを統一 */
+    margin: 5px 0;
+}
+
+.performance-item .title {
+    font-weight: bold;
 }
 
 .performance-item p {
