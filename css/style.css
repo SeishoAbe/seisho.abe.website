@@ -487,18 +487,15 @@ footer {
 }
 
 .performance-item {
-    margin: 15px 0;
+    margin: 0;
 }
 
 .title {
     font-weight: bold;
-    font-size: 1.1em;
 }
 
 .details {
     margin-left: 20px; /* インデントを追加 */
-    font-size: 1em;
-    color: #555;
 }
 
 .details p {
@@ -507,5 +504,4 @@ footer {
 
 .details span {
     font-weight: bold;
-    color: #333;
 }
