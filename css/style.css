@@ -479,3 +479,33 @@ footer {
   margin: 0;
   padding: 0;
 }
+
+/**/
+
+.performance-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.performance-item {
+    background-color: #fafafa;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.performance-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.performance-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.performance-item span {
+    font-weight: bold;
+    color: #333;
+}
