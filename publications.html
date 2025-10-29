@@ -18,6 +18,46 @@
 
 <h1 id="logo"><a href="index.html">Seisho Abe's Webpage</a></h1>
 
+<!-- Add this navigation block just below <header> -->
+<nav id="sub-nav">
+  <ul>
+    <li><a href="#publications">Publicationss</a></li>
+    <li><a href="#talks">Presentations</a></li>
+    <li><a href="#others">Fundings</a></li>
+  </ul>
+</nav>
+
+<style>
+  #sub-nav {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    z-index: 1000;
+    padding: 0.5em 0;
+  }
+  #sub-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin: 0;
+    padding: 0;
+  }
+  #sub-nav a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+  }
+  #sub-nav a:hover {
+    text-decoration: underline;
+  }
+  section {
+    scroll-margin-top: 80px; /* sticky headerの分だけ余白を確保 */
+  }
+</style>
+
+
 </header>
 
 
@@ -28,7 +68,7 @@
 
 <section>
 
-<h2>Publications</h2>
+<h2 id="publications">Publications</h2>
 <p> Only the major ones are listed below. Comprehensive list is available in <a href="https://orcid.org/0000-0002-2110-5130"><font color="#0000EE">ORCID</font></a>. </p>
 
 <h3>Corresponding author</h3>
@@ -80,7 +120,7 @@
 </section>
 
 <section>
-<h2>Presentations</h2>
+<h2 id="presentations">Presentations</h2>
 <h3>International conference/seminar </h3>
 <strong>Invited Talk</strong>
 <ul class="performance-list">
@@ -172,7 +212,7 @@
 
 
 <section>
-<h2>Fundings</h2>
+<h2 id="fundings">Fundings</h2>
 <ul class="performance-list">
   <li class="performance-item">
     <span class="title"> (研究分担者) 原子核反応の精密測定で拓く超大型水チェレンコフ装置による新たなニュートリノ観測 </span>
